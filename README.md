@@ -41,7 +41,9 @@
 ├── 08-server-actions
 ├── 09-advanced-routing
 ├── 10-optimization-deploy
+├── docs
 └── README.md
+
 
 ## 🧭 학습 진행 현황
 - [ ] 섹션 1. 시작하며
