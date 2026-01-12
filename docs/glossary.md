@@ -4,3 +4,4 @@
 - FCP (First Contentful Pain) ≒ 요청 시작 시점 ~ 컨텐츠 렌더링 되기까지의 시간
 - 랜더링 1) 서버에서 JS 실행 ≒ React 컴포넌트를 HTML로 변환하는 과정 2) HTML코드를 브라우저가 화면에 그려내는 작업
 - TTI (Time to Interactive) ≒ 요청 시작 시점 ~ 수화 되기까지의 시간
+- 프로그래메틱하게 페이지 이동 : 함수 내부에서 페이지 이동하는 방식
