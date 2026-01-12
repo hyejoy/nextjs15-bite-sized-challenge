@@ -1,6 +1,0 @@
- 🔥 용어 정리
- * 브라우저 ≒ 클라이언트
- * FCP (First Contentful Pain) ≒ 요청 시작 시점 ~ 컨텐츠 렌더링 되기까지의 시간
- * 랜더링 1) 서버에서 JS 실행 ≒ React 컴포넌트를 HTML로 변환하는 과정
-		      2) HTML코드를 브라우저가 화면에 그려내는 작업
- * TTI (Time to Interactive) ≒ 요청 시작 시점 ~ 수화 되기까지의 시간
