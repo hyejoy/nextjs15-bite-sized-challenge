@@ -1,3 +1,5 @@
+import ClinetCompnent from "@/components/client-component";
+
 export default async function Page({
   params,
 }: {
@@ -7,7 +9,9 @@ export default async function Page({
 
   return (
     <>
-      <h1>book/{id} page 입니다.</h1>
+      <ClinetCompnent>
+        <h1>book/{id} page 입니다.</h1>
+      </ClinetCompnent>
     </>
   );
 }

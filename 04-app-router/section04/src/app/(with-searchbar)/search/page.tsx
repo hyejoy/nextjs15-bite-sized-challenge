@@ -1,3 +1,5 @@
+import ClinetCompnent from "@/components/client-component";
+
 export default async function Page({
   searchParams,
 }: {
@@ -8,6 +10,9 @@ export default async function Page({
   return (
     <>
       <h1>Search 페이지 : {q}</h1>
+      <ClinetCompnent>
+        <></>
+      </ClinetCompnent>
     </>
   );
 }

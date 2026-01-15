@@ -1,6 +1,6 @@
-import ClinetCompnent from "./client-component";
+import ClinetCompnent from "../../components/client-component";
 import styles from "./page.module.css";
-import ServerComponent from "./server-component";
+import ServerComponent from "../../components/server-component";
 
 export default function Home() {
   return (
