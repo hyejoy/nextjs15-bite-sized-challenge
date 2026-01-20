@@ -8,7 +8,10 @@ if (!BASE_URL) {
 }
 
 async function AllBooks() {
-  const response = await fetch(`${BASE_URL}/book`);
+  const response = await fetch(`${BASE_URL}/book`, {
+    cache: "no-store",
+  });
+  // const response = await fetch(`${BASE_URL}/book`);
   if (!response.ok) {
     return <div>등록 도서 오류 발생 ❌</div>;
   }
@@ -24,7 +27,9 @@ async function AllBooks() {
 }
 
 async function RecoBooks() {
-  const response = await fetch(`${BASE_URL}/book/random`); //-> app/lib/fetch.ts 로 API 파일 분리함
+  const response = await fetch(`${BASE_URL}/book/random`, {
+    next: { revalidate: 3 },
+  }); // 3초마다 새로운 데이터 요청
   // fetch 예외처리 필수 !⭐⭐⭐
   if (!response.ok) {
     return <div>등록 도서 오류 발생 ❌</div>;
